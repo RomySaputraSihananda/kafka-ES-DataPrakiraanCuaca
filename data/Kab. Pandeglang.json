@@ -1,0 +1,541 @@
+{
+  "kabupaten": {
+    "en_US": "Pandeglang",
+    "id_ID": "Kab. Pandeglang"
+  },
+  "provinsi": "Banten",
+  "coordinate": "106.09 -6.303889",
+  "parameter": {
+    "kelembapan_udara": {
+      "type": "hourly",
+      "timerange": [
+        {
+          "datetime": "2023-12-13T00:00:00",
+          "value": {
+            "%": 75.0
+          }
+        },
+        {
+          "datetime": "2023-12-13T06:00:00",
+          "value": {
+            "%": 60.0
+          }
+        },
+        {
+          "datetime": "2023-12-13T12:00:00",
+          "value": {
+            "%": 85.0
+          }
+        },
+        {
+          "datetime": "2023-12-13T18:00:00",
+          "value": {
+            "%": 95.0
+          }
+        },
+        {
+          "datetime": "2023-12-14T00:00:00",
+          "value": {
+            "%": 75.0
+          }
+        },
+        {
+          "datetime": "2023-12-14T06:00:00",
+          "value": {
+            "%": 60.0
+          }
+        },
+        {
+          "datetime": "2023-12-14T12:00:00",
+          "value": {
+            "%": 75.0
+          }
+        },
+        {
+          "datetime": "2023-12-14T18:00:00",
+          "value": {
+            "%": 95.0
+          }
+        },
+        {
+          "datetime": "2023-12-15T00:00:00",
+          "value": {
+            "%": 75.0
+          }
+        },
+        {
+          "datetime": "2023-12-15T06:00:00",
+          "value": {
+            "%": 60.0
+          }
+        },
+        {
+          "datetime": "2023-12-15T12:00:00",
+          "value": {
+            "%": 70.0
+          }
+        },
+        {
+          "datetime": "2023-12-15T18:00:00",
+          "value": {
+            "%": 95.0
+          }
+        }
+      ]
+    },
+    "kelembapan_udara_maksimum": {
+      "type": "daily",
+      "timerange": [
+        {
+          "datetime": "2023-12-13T12:00:00",
+          "value": {
+            "%": 90.0
+          }
+        },
+        {
+          "datetime": "2023-12-14T12:00:00",
+          "value": {
+            "%": 95.0
+          }
+        },
+        {
+          "datetime": "2023-12-15T12:00:00",
+          "value": {
+            "%": 95.0
+          }
+        }
+      ]
+    },
+    "suhu_udara_maksimum": {
+      "type": "daily",
+      "timerange": [
+        {
+          "datetime": "2023-12-13T12:00:00",
+          "value": {
+            "C": 33.0,
+            "F": 91.4
+          }
+        },
+        {
+          "datetime": "2023-12-14T12:00:00",
+          "value": {
+            "C": 33.0,
+            "F": 91.4
+          }
+        },
+        {
+          "datetime": "2023-12-15T12:00:00",
+          "value": {
+            "C": 33.0,
+            "F": 91.4
+          }
+        }
+      ]
+    },
+    "kelembapan_udara_minimum": {
+      "type": "daily",
+      "timerange": [
+        {
+          "datetime": "2023-12-13T12:00:00",
+          "value": {
+            "%": 60.0
+          }
+        },
+        {
+          "datetime": "2023-12-14T12:00:00",
+          "value": {
+            "%": 60.0
+          }
+        },
+        {
+          "datetime": "2023-12-15T12:00:00",
+          "value": {
+            "%": 60.0
+          }
+        }
+      ]
+    },
+    "suhu_udara_minimum": {
+      "type": "daily",
+      "timerange": [
+        {
+          "datetime": "2023-12-13T12:00:00",
+          "value": {
+            "C": 24.0,
+            "F": 75.2
+          }
+        },
+        {
+          "datetime": "2023-12-14T12:00:00",
+          "value": {
+            "C": 23.0,
+            "F": 73.4
+          }
+        },
+        {
+          "datetime": "2023-12-15T12:00:00",
+          "value": {
+            "C": 23.0,
+            "F": 73.4
+          }
+        }
+      ]
+    },
+    "suhu_udara": {
+      "type": "hourly",
+      "timerange": [
+        {
+          "datetime": "2023-12-13T00:00:00",
+          "value": {
+            "C": 26.0,
+            "F": 78.8
+          }
+        },
+        {
+          "datetime": "2023-12-13T06:00:00",
+          "value": {
+            "C": 33.0,
+            "F": 91.4
+          }
+        },
+        {
+          "datetime": "2023-12-13T12:00:00",
+          "value": {
+            "C": 27.0,
+            "F": 80.6
+          }
+        },
+        {
+          "datetime": "2023-12-13T18:00:00",
+          "value": {
+            "C": 23.0,
+            "F": 73.4
+          }
+        },
+        {
+          "datetime": "2023-12-14T00:00:00",
+          "value": {
+            "C": 26.0,
+            "F": 78.8
+          }
+        },
+        {
+          "datetime": "2023-12-14T06:00:00",
+          "value": {
+            "C": 33.0,
+            "F": 91.4
+          }
+        },
+        {
+          "datetime": "2023-12-14T12:00:00",
+          "value": {
+            "C": 27.0,
+            "F": 80.6
+          }
+        },
+        {
+          "datetime": "2023-12-14T18:00:00",
+          "value": {
+            "C": 23.0,
+            "F": 73.4
+          }
+        },
+        {
+          "datetime": "2023-12-15T00:00:00",
+          "value": {
+            "C": 26.0,
+            "F": 78.8
+          }
+        },
+        {
+          "datetime": "2023-12-15T06:00:00",
+          "value": {
+            "C": 33.0,
+            "F": 91.4
+          }
+        },
+        {
+          "datetime": "2023-12-15T12:00:00",
+          "value": {
+            "C": 29.0,
+            "F": 84.2
+          }
+        },
+        {
+          "datetime": "2023-12-15T18:00:00",
+          "value": {
+            "C": 23.0,
+            "F": 73.4
+          }
+        }
+      ]
+    },
+    "cuaca": {
+      "type": "hourly",
+      "timerange": [
+        {
+          "datetime": "2023-12-13T00:00:00",
+          "value": "Berawan / Mostly Cloudy"
+        },
+        {
+          "datetime": "2023-12-13T06:00:00",
+          "value": "Berawan / Mostly Cloudy"
+        },
+        {
+          "datetime": "2023-12-13T12:00:00",
+          "value": "Berawan / Mostly Cloudy"
+        },
+        {
+          "datetime": "2023-12-13T18:00:00",
+          "value": "Berawan / Mostly Cloudy"
+        },
+        {
+          "datetime": "2023-12-14T00:00:00",
+          "value": "Cerah Berawan / Partly Cloudy"
+        },
+        {
+          "datetime": "2023-12-14T06:00:00",
+          "value": "Berawan / Mostly Cloudy"
+        },
+        {
+          "datetime": "2023-12-14T12:00:00",
+          "value": "Berawan / Mostly Cloudy"
+        },
+        {
+          "datetime": "2023-12-14T18:00:00",
+          "value": "Berawan / Mostly Cloudy"
+        },
+        {
+          "datetime": "2023-12-15T00:00:00",
+          "value": "Cerah Berawan / Partly Cloudy"
+        },
+        {
+          "datetime": "2023-12-15T06:00:00",
+          "value": "Berawan / Mostly Cloudy"
+        },
+        {
+          "datetime": "2023-12-15T12:00:00",
+          "value": "Berawan / Mostly Cloudy"
+        },
+        {
+          "datetime": "2023-12-15T18:00:00",
+          "value": "Berawan / Mostly Cloudy"
+        }
+      ]
+    },
+    "arah_angin": {
+      "type": "hourly",
+      "timerange": [
+        {
+          "datetime": "2023-12-13T00:00:00",
+          "value": {
+            "deg": 225.0,
+            "CARD": "Southwest",
+            "SEXA": 22500.0
+          }
+        },
+        {
+          "datetime": "2023-12-13T06:00:00",
+          "value": {
+            "deg": 225.0,
+            "CARD": "Southwest",
+            "SEXA": 22500.0
+          }
+        },
+        {
+          "datetime": "2023-12-13T12:00:00",
+          "value": {
+            "deg": 202.5,
+            "CARD": "South-Southwest",
+            "SEXA": 20230.0
+          }
+        },
+        {
+          "datetime": "2023-12-13T18:00:00",
+          "value": {
+            "deg": 225.0,
+            "CARD": "Southwest",
+            "SEXA": 22500.0
+          }
+        },
+        {
+          "datetime": "2023-12-14T00:00:00",
+          "value": {
+            "deg": 225.0,
+            "CARD": "Southwest",
+            "SEXA": 22500.0
+          }
+        },
+        {
+          "datetime": "2023-12-14T06:00:00",
+          "value": {
+            "deg": 225.0,
+            "CARD": "Southwest",
+            "SEXA": 22500.0
+          }
+        },
+        {
+          "datetime": "2023-12-14T12:00:00",
+          "value": {
+            "deg": 225.0,
+            "CARD": "Southwest",
+            "SEXA": 22500.0
+          }
+        },
+        {
+          "datetime": "2023-12-14T18:00:00",
+          "value": {
+            "deg": 225.0,
+            "CARD": "Southwest",
+            "SEXA": 22500.0
+          }
+        },
+        {
+          "datetime": "2023-12-15T00:00:00",
+          "value": {
+            "deg": 225.0,
+            "CARD": "Southwest",
+            "SEXA": 22500.0
+          }
+        },
+        {
+          "datetime": "2023-12-15T06:00:00",
+          "value": {
+            "deg": 202.5,
+            "CARD": "South-Southwest",
+            "SEXA": 20230.0
+          }
+        },
+        {
+          "datetime": "2023-12-15T12:00:00",
+          "value": {
+            "deg": 225.0,
+            "CARD": "Southwest",
+            "SEXA": 22500.0
+          }
+        },
+        {
+          "datetime": "2023-12-15T18:00:00",
+          "value": {
+            "deg": 225.0,
+            "CARD": "Southwest",
+            "SEXA": 22500.0
+          }
+        }
+      ]
+    },
+    "kecepatan_angin": {
+      "type": "hourly",
+      "timerange": [
+        {
+          "datetime": "2023-12-13T00:00:00",
+          "value": {
+            "Kt": 5.0,
+            "MPH": 5.75389725,
+            "KPH": 9.26,
+            "MS": 2.57222222
+          }
+        },
+        {
+          "datetime": "2023-12-13T06:00:00",
+          "value": {
+            "Kt": 5.0,
+            "MPH": 5.75389725,
+            "KPH": 9.26,
+            "MS": 2.57222222
+          }
+        },
+        {
+          "datetime": "2023-12-13T12:00:00",
+          "value": {
+            "Kt": 10.0,
+            "MPH": 11.5077945,
+            "KPH": 18.52,
+            "MS": 5.14444444
+          }
+        },
+        {
+          "datetime": "2023-12-13T18:00:00",
+          "value": {
+            "Kt": 5.0,
+            "MPH": 5.75389725,
+            "KPH": 9.26,
+            "MS": 2.57222222
+          }
+        },
+        {
+          "datetime": "2023-12-14T00:00:00",
+          "value": {
+            "Kt": 5.0,
+            "MPH": 5.75389725,
+            "KPH": 9.26,
+            "MS": 2.57222222
+          }
+        },
+        {
+          "datetime": "2023-12-14T06:00:00",
+          "value": {
+            "Kt": 5.0,
+            "MPH": 5.75389725,
+            "KPH": 9.26,
+            "MS": 2.57222222
+          }
+        },
+        {
+          "datetime": "2023-12-14T12:00:00",
+          "value": {
+            "Kt": 5.0,
+            "MPH": 5.75389725,
+            "KPH": 9.26,
+            "MS": 2.57222222
+          }
+        },
+        {
+          "datetime": "2023-12-14T18:00:00",
+          "value": {
+            "Kt": 5.0,
+            "MPH": 5.75389725,
+            "KPH": 9.26,
+            "MS": 2.57222222
+          }
+        },
+        {
+          "datetime": "2023-12-15T00:00:00",
+          "value": {
+            "Kt": 5.0,
+            "MPH": 5.75389725,
+            "KPH": 9.26,
+            "MS": 2.57222222
+          }
+        },
+        {
+          "datetime": "2023-12-15T06:00:00",
+          "value": {
+            "Kt": 5.0,
+            "MPH": 5.75389725,
+            "KPH": 9.26,
+            "MS": 2.57222222
+          }
+        },
+        {
+          "datetime": "2023-12-15T12:00:00",
+          "value": {
+            "Kt": 5.0,
+            "MPH": 5.75389725,
+            "KPH": 9.26,
+            "MS": 2.57222222
+          }
+        },
+        {
+          "datetime": "2023-12-15T18:00:00",
+          "value": {
+            "Kt": 5.0,
+            "MPH": 5.75389725,
+            "KPH": 9.26,
+            "MS": 2.57222222
+          }
+        }
+      ]
+    }
+  }
+}
