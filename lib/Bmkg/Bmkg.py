@@ -5,7 +5,7 @@ from requests import Response
 from json import dumps
 from datetime import datetime
 
-from Bmkg.helpers import Kode_Parameter, Kode_Cuaca, Kode_Arah_Angin
+from lib.Bmkg.helpers import Kode_Parameter, Kode_Cuaca, Kode_Arah_Angin
 
 class Bmkg:
     def __init__(self) -> None:
