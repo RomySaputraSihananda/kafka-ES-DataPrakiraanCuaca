@@ -60,6 +60,18 @@ python ProducerJson.py --provinsi=DKIJakarta --topic=provinsi_json --server_k=0.
 | --server_es |  -se  |   address of elasticsearch server    | --server_es=0.0.0.0:9200 | 0.0.0.0:9200  |
 | --provinsi  |  -p   | name of the [province](Province.md)  | --provinsi=DKIJakarta    |  DKIJakarta   |
 
+## Disclaimer
+
+Sebelum menjalankan aplikasi ini, pastikan Anda telah memenuhi kebutuhan berikut:
+
+### Elasticsearch
+
+Pastikan Anda telah menginstal dan mengonfigurasi Elasticsearch di lingkungan Anda. Anda dapat mengunduh Elasticsearch dari [situs resmi Elasticsearch](https://www.elastic.co/downloads/elasticsearch).
+
+### Kafka
+
+Instal dan konfigurasikan Kafka untuk memastikan kelancaran aliran data. Kunjungi [situs resmi Apache Kafka](https://kafka.apache.org/) untuk petunjuk instalasi dan konfigurasi.
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
