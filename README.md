@@ -52,12 +52,13 @@ python ProducerJson.py --provinsi=DKIJakarta --topic=provinsi_json --server_k=0.
 
 ### Flags
 
-| Flag        | Alias |             Description             | Example                  |    Default    |
-| :---------- | :---: | :---------------------------------: | :----------------------- | :-----------: |
-| --topic     |  -t   |           topic of kafka            | --topic=provinsi_json    | provinsi_json |
-| --server_k  |  -sk  |       address of kafka server       | --server_k=0.0.0.0:9092  | 0.0.0.0:9092  |
-| --server_es |  -se  |   address of elasticsearch server   | --server_es=0.0.0.0:9200 | 0.0.0.0:9200  |
-| --provinsi  |  -p   | name of the [province](Province.md) | --provinsi=DKIJakarta    |  DKIJakarta   |
+| Flag        | Alias |             Description              | Example                  |    Default    |
+| :---------- | :---: | :----------------------------------: | :----------------------- | :-----------: |
+| --topic     |  -t   |            topic of kafka            | --topic=provinsi_json    | provinsi_json |
+| --server_k  |  -sk  |       address of kafka server        | --server_k=0.0.0.0:9092  | 0.0.0.0:9092  |
+| --index     |  -i   | index of document from elasticsearch | --index=cuaca            |     cuaca     |
+| --server_es |  -se  |   address of elasticsearch server    | --server_es=0.0.0.0:9200 | 0.0.0.0:9200  |
+| --provinsi  |  -p   | name of the [province](Province.md)  | --provinsi=DKIJakarta    |  DKIJakarta   |
 
 ## License
 
