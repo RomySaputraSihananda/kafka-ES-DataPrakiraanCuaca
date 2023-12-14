@@ -14,19 +14,42 @@ Aplikasi ini dibuat untuk mensimulasikan transmisi data hasil crawling dari [Dat
 - **elasticsearch >= 8.10.0**
 - **kafka_python >= 2.0.2**
 
-## Struktur File
+## File structure
 
-1. User.py
-   - Deskripsi: Mengambil input dari pengguna dan berfungsi sebagai producer untuk topic provinsi.
-2. ProducerJson.py
-   - Deskripsi: Menjadi consumer untuk topic provinsi. Data dari provinsi diteruskan ke engine yang menghasilkan data JSON. Juga, berfungsi sebagai producer untuk topic provinsi_json.
-3. ConsumerJson.py
-   - Deskripsi: Consumer dari topic provinsi_json. Data ini kemudian dikirim ke Elasticsearch sebagai sebuah dokumen.
+![](https://raw.githubusercontent.com/RomySaputraSihananda/RomySaputraSihananda/main/images/flowkafespy.png)
 
-## Langkah-langkah Penggunaan
+| File            |                                                                   Description                                                                   |
+| --------------- | :---------------------------------------------------------------------------------------------------------------------------------------------: |
+| ProducerJson.py | Berfungsi mengambil data provinsi diteruskan ke engine yang menghasilkan data JSON. Juga, berfungsi sebagai producer untuk topic provinsi_json. |
+| ConsumerJson.py |                      Consumer dari topic provinsi_json. Data ini kemudian dikirim ke Elasticsearch sebagai sebuah dokumen.                      |
 
-1. Jalankan User.py untuk mengambil input dari pengguna.
-2. Jalankan ProducerData.py untuk memulai transmisi data dari provinsi.
-3. ConsumerData.py akan menjalankan proses konsumsi dan mengirimkan data ke Elasticsearch.
+## Installation
 
-Pastikan Anda telah menginstal dependensi yang diperlukan sebelum menjalankan aplikasi ini.
+```sh
+# Clonig Repository
+git clone https://github.com/romysaputrasihananda/kafka-ES-DataPrakiraanCuaca
+
+# Change Directory
+cd kafka-ES-DataPrakiraanCuaca
+
+# Install Requirement
+pip install -r requirements.txt
+```
+
+## Example Usage
+
+### Start Consumer of Kafka
+
+```bash
+
+```
+
+### Start Producer of Kafka
+
+```bash
+
+```
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
