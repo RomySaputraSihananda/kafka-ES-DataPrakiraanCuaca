@@ -10,8 +10,13 @@ class Producer:
 
     def send(self, datas: dict) -> None:
         if(not datas): return
+        
         if(isinstance(datas, dict)):
-            for data in datas['data']: self.__kafka_producer.send(topic=self.__topic, value=data)
+            print(len(datas['data']))
+            for data in datas['data']: 
+                self.__kafka_producer.send(topic=self.__topic, value=data)
+                sleep(2) 
+            return
 
         self.__kafka_producer.send(topic=self.__topic, value=datas)
         sleep(2)
