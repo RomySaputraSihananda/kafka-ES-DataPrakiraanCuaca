@@ -3,11 +3,13 @@ from lib import ConsumerData
 
 if(__name__ == '__main__'):
     argp: ArgumentParser = ArgumentParser()
-    argp.add_argument("--topic", '-t', type=str, default='DKIJakarta')
-    argp.add_argument("--server_k", '-sk', type=str)
-    argp.add_argument("--document", '-d', type=str)
-    argp.add_argument("--server_es", '-se', type=str)
+    argp.add_argument("--topic", '-t', type=str, default='provinsi_json')
+    argp.add_argument("--server_k", '-sk', type=str, default='0.0.0.0:9092')
+    argp.add_argument("--index", '-i', type=str, default='cuaca')
+    argp.add_argument("--server_es", '-se', type=str, default='0.0.0.0:9200')
     args = argp.parse_args()
 
-    consumer_json: ConsumerData = ConsumerData('cuaca',  'http://192.168.20.90:9200', 'provinsi_json', '0.0.0.0:9092')
+    print(args.topic)
+
+    consumer_json: ConsumerData = ConsumerData(index_elasticsearch=args.index,  server_elasticsearch=f'http://{args.server_es}', topik_kafka=args.topic, server_kafka=args.server_k)
     consumer_json.excecute()
