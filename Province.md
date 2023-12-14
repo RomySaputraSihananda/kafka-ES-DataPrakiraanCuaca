@@ -1,0 +1,41 @@
+# Province
+
+Name of province in Indonesia
+
+|     Province      |           Example            |
+| :---------------: | :--------------------------: |
+|       Aceh        |       --provinsi=Aceh        |
+|       Bali        |       --provinsi=Bali        |
+|  BangkaBelitung   |  --provinsi=BangkaBelitung   |
+|      Banten       |      --provinsi=Banten       |
+|     Bengkulu      |     --provinsi=Bengkulu      |
+|   DIYogyakarta    |   --provinsi=DIYogyakarta    |
+|    DKIJakarta     |    --provinsi=DKIJakarta     |
+|     Gorontalo     |     --provinsi=Gorontalo     |
+|       Jambi       |       --provinsi=Jambi       |
+|     JawaBarat     |     --provinsi=JawaBarat     |
+|    JawaTengah     |    --provinsi=JawaTengah     |
+|     JawaTimur     |     --provinsi=JawaTimur     |
+|  KalimantanBarat  |  --provinsi=KalimantanBarat  |
+| KalimantanSelatan | --provinsi=KalimantanSelatan |
+| KalimantanTengah  | --provinsi=KalimantanTengah  |
+|  KalimantanTimur  |  --provinsi=KalimantanTimur  |
+|  KalimantanUtara  |  --provinsi=KalimantanUtara  |
+|   KepulauanRiau   |   --provinsi=KepulauanRiau   |
+|      Lampung      |      --provinsi=Lampung      |
+|      Maluku       |      --provinsi=Maluku       |
+|    MalukuUtara    |    --provinsi=MalukuUtara    |
+| NusaTenggaraBarat | --provinsi=NusaTenggaraBarat |
+| NusaTenggaraTimur | --provinsi=NusaTenggaraTimur |
+|       Papua       |       --provinsi=Papua       |
+|    PapuaBarat     |    --provinsi=PapuaBarat     |
+|       Riau        |       --provinsi=Riau        |
+|   SulawesiBarat   |   --provinsi=SulawesiBarat   |
+|  SulawesiSelatan  |  --provinsi=SulawesiSelatan  |
+|  SulawesiTengah   |  --provinsi=SulawesiTengah   |
+| SulawesiTenggara  | --provinsi=SulawesiTenggara  |
+|   SulawesiUtara   |   --provinsi=SulawesiUtara   |
+|   SumateraBarat   |   --provinsi=SumateraBarat   |
+|  SumateraSelatan  |  --provinsi=SumateraSelatan  |
+|   SumateraUtara   |   --provinsi=SumateraUtara   |
+|     Indonesia     |     --provinsi=Indonesia     |
