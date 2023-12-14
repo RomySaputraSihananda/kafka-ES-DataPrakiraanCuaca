@@ -1,7 +1,7 @@
 from kafka import KafkaProducer
 from json import dumps
 from time import sleep
-
+from lib import logging
 
 class Producer:
     def __init__(self, topic: str, servers: str) -> None:
@@ -13,7 +13,8 @@ class Producer:
         
         if(isinstance(datas, dict)):
             print(len(datas['data']))
-            for data in datas['data']: 
+            for data in datas['data']:
+                logging.info('') 
                 self.__kafka_producer.send(topic=self.__topic, value=data)
                 sleep(2) 
             return
