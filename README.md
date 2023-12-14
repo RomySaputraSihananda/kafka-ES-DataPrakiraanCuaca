@@ -1,6 +1,18 @@
+[![Twitter: romy](https://img.shields.io/twitter/follow/RomySihananda)](https://twitter.com/RomySihananda)
+
 # kafka-ES-DataPrakiraanCuaca
 
-Aplikasi ini dibuat untuk mensimulasikan transmisi data menggunakan Python, Kafka, dan Elasticsearch.
+![](https://raw.githubusercontent.com/RomySaputraSihananda/RomySaputraSihananda/main/images/GBTKs-HakAAZd50.jpeg)
+
+Aplikasi ini dibuat untuk mensimulasikan transmisi data hasil crawling dari [DataPrakiraanCuaca](https://github.com/RomySaputraSihananda/craw-DataPrakiraanCuaca) menggunakan Python, Kafka, dan Elasticsearch.
+
+## Requirements
+
+- **Python >= 3.11.4**
+- **Requests >= 2.31.0**
+- **xmltodict >= 0.12.0**
+- **elasticsearch >= 8.10.0**
+- **kafka_python >= 2.0.2**
 
 ## Struktur File
 

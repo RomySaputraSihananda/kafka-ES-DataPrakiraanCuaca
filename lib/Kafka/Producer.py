@@ -1,7 +1,9 @@
 from kafka import KafkaProducer
 from json import dumps
 from time import sleep
-from lib import logging
+
+import logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s [ %(levelname)s ] :: %(message)s', datefmt="%Y-%m-%dT%H:%M:%S")
 
 class Producer:
     def __init__(self, topic: str, servers: str) -> None:
@@ -14,7 +16,7 @@ class Producer:
         if(isinstance(datas, dict)):
             print(len(datas['data']))
             for data in datas['data']:
-                logging.info('') 
+                logging.info(f'Send to Kafka {data["kabupaten"]["id_ID"]}')
                 self.__kafka_producer.send(topic=self.__topic, value=data)
                 sleep(2) 
             return
