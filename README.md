@@ -41,7 +41,7 @@ pip install -r requirements.txt
 ### Start Consumer of Kafka
 
 ```bash
-python ConsumerJson.py --topic=provinsi_json --server_k=0.0.0.0:9092 --server_es=0.0.0.0:9200
+python ConsumerJson.py --topic=provinsi_json --server_k=0.0.0.0:9092 --index=cuaca --server_es=0.0.0.0:9200
 ```
 
 ### Start Producer of Kafka
